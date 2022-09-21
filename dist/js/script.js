@@ -22,7 +22,7 @@ hamburger.addEventListener("click", function () {
 // cari film
 const cariFilm = () => {
   $.ajax({
-    url: "http://www.omdbapi.com",
+    url: "https://www.omdbapi.com",
     type: "get",
     datatype: "json",
     data: {
@@ -72,7 +72,7 @@ $('#cari').on('keyup', function(e){
 $('#daftar-film').on('click','.lihat-detil', function(){
 
   $.ajax({
-    url: "http://www.omdbapi.com",
+    url: "https://www.omdbapi.com",
     type: "get",
     datatype: "json",
     data: {
